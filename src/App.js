@@ -1,4 +1,3 @@
-import { Routes, Route, Link } from "react-router-dom";
 import About from "./component/About";
 import Home from "./component/Home";
 
@@ -6,13 +5,12 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
       </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-      </Routes>
+      <Home />
+      <About />
+      <footer>footer</footer>
     </div>
   );
 }
