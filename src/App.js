@@ -1,6 +1,6 @@
+import { Routes, Route, Link } from "react-router-dom";
 import About from "./component/About";
 import Home from "./component/Home";
-import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
