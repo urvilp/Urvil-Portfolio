@@ -3,9 +3,9 @@ const About = () => {
     <div id="About">
       <h1>About</h1>
       <p>
-        Hello! My name is Urvil.i love to create wesite on internet.i interested
-        to create things on online since 2020. i like to make frontend and
-        backend connection and inventing a big project.
+        Hello! My name is Urvil. I love to create wesites on the internet. I've
+        been interested in creating things online since 2020. I like making
+        front and back end connections and developing big projects.
       </p>
     </div>
   );

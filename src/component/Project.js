@@ -5,17 +5,24 @@ const Project = () => {
   return (
     <div id="Project">
       <h1>Projects</h1>
-
-      <h3>Javascript Flashcard</h3>
-      <a href="https://github.com/urvilp/project-1">Github repo</a>
+      <h3>JavaScript Flash Cards</h3>
+      <a href="https://github.com/urvilp/project-1">GitHub Repo</a>
+      <br />
       <a href="https://urvilp.github.io/project-1/">Deployed App</a>
+      <br />
+      <br />
       <img src={image2} alt="project" />
       <br />
       <br />
       <h3>Employee Application</h3>
-      <a href="https://github.com/urvilp/project-2">Github repo</a>
-      <a href="https://company-page.herokuapp.com/">Deployed app</a>
+      <a href="https://github.com/urvilp/project-2">GitHub Repo</a>
+      <br />
+      <a href="https://company-page.herokuapp.com/">Deployed App</a>
+      <br />
+      <br />
       <img src={image1} alt="project" />
+      <br />
+      <br />
     </div>
   );
 };

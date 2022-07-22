@@ -9,8 +9,8 @@ function App() {
       <nav>
         <a href="#Home">Home</a>
         <a href="#About">About</a>
-        <a href="#Project">Projects</a>
         <a href="#Skills">Skills</a>
+        <a href="#Project">Projects</a>
       </nav>
       <Home />
       <hr />
@@ -19,8 +19,6 @@ function App() {
       <Skills />
       <hr />
       <Project />
-      <hr />
-      <footer>footer</footer>
     </div>
   );
 }
