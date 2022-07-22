@@ -1,18 +1,15 @@
-body {
-  margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #2e0249;
-  color: #fff;
-  width: 95%;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&family=Mukta:wght@300&display=swap");
+
+html {
+  scroll-behavior: smooth;
 }
 
-img {
-  width: 70%;
+body {
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+  background-color: #2e0249;
+  color: #fff;
+  text-align: center;
 }
 
 a {
@@ -24,7 +21,39 @@ a:hover {
   color: #a91079;
 }
 
+h1 {
+  font-family: "Edu QLD Beginner", cursive;
+}
+
+img {
+  width: 70%;
+}
+
 nav {
   display: flex;
   justify-content: space-evenly;
+  background-color: #a91079;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+nav a:hover {
+  color: #f806cc;
+}
+
+section {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url(./img/city.jpg);
+  padding: 20%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: larger;
 }

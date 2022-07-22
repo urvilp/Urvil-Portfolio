@@ -12,13 +12,22 @@ function App() {
         <a href="#Skills">Skills</a>
         <a href="#Project">Projects</a>
       </nav>
-      <Home />
-      <hr />
-      <About />
-      <hr />
-      <Skills />
-      <hr />
-      <Project />
+      <section>
+        <Home />
+        <hr />
+        <About />
+        <hr />
+        <Skills />
+        <hr />
+        <div className="banner">
+          <h2>
+            Programming is like any other sport. You might know the rules but
+            you have to play to learn.
+          </h2>
+        </div>
+        <hr />
+        <Project />
+      </section>
     </div>
   );
 }
